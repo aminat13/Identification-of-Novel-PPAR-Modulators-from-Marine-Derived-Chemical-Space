@@ -218,21 +218,23 @@ These findings support further investigation of selected seaweed-derived metabol
 │
 └── results/
     ├── figures/
-    │   ├── PPARγ agonist chemotype distribution
-    │   ├── seaweed metabolite scaffold distribution
-    │   ├── ligand interaction frequency analysis
-    │   ├── structure–activity relationship figures
-    │   ├── Tanimoto similarity screening figures
-    │   ├── AI-assisted prioritisation results
-    │   └── integrated virtual-screening analysis
+    │   ├── 01_pparg_chemotype_distribution.png
+    │   ├── 02_seaweed_scaffold_distribution.png
+    │   ├── 05_residue_interaction_heatmap.png
+    │   ├── 06_activity_class_comparison.png
+    │   ├── 07_functional_groups_by_activity.png
+    │   ├── 09_tanimoto_similarity_by_species.png
+    │   ├── 10_scaffold_similarity_contributions.png
+    │   ├── 12_ai_priority_by_species.png
+    │   └── 14_integrated_screening.png
     │
-    └── tables/
-        ├── residue interaction frequencies
-        ├── PPARγ activity classifications
-        ├── SAR functional-group analysis
-        ├── Tanimoto screening results
-        ├── pharmacophore screening hits
-        └── integrated screening and docking results
+    └── table/
+        ├── 01_pharmacophore_hits.png
+        ├── 01_top_10_docking_candidates.png
+        ├── 02_pharmacophore_hits.png
+        ├── 02_top_10_docking_candidates.png
+        ├── 03_pharmacophore_hits.png
+        └── 03_top_10_docking_candidates.png
 ```
 
 The `scripts/` directory follows the order of the computational workflow presented in the thesis, progressing from database curation and molecular characterisation through structural analysis, virtual screening and final candidate prioritisation.
