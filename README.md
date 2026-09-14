@@ -195,20 +195,59 @@ These findings support further investigation of selected seaweed-derived metabol
 ```text
 .
 ├── README.md
+│
 ├── thesis/
 │   └── Aminat_Coster_MSc_Thesis.pdf
+│
 ├── scripts/
-├── results/
-│   ├── figures/
-│   └── tables/
-└── data/
-    ├── raw/
-    └── processed/
-```
+│   ├── 01_curate_pparg_database.py
+│   ├── 02_curate_seaweed_database.py
+│   ├── 03_calculate_molecular_descriptors.py
+│   ├── 04_chemotype_clustering.py
+│   ├── 05_binding_interaction_analysis.py
+│   ├── 06_structure_activity_analysis.py
+│   ├── 07_tanimoto_screening.py
+│   └── 08_screening_integration.py
+│
+├── data/
+│   ├── raw/
+│   │   ├── PPARγ ligand and affinity exports
+│   │   ├── LOTUS seaweed metabolite data
+│   │   └── MOE-exported screening and docking files
+│   │
+│   └── processed/
+│       ├── curated PPARγ agonist database
+│       ├── curated seaweed metabolite database
+│       ├── molecular descriptor datasets
+│       ├── clustered and classified datasets
+│       ├── ligand interaction data
+│       └── screening result files
+│
+└── results/
+    ├── figures/
+    │   ├── PPARγ agonist chemotype distribution
+    │   ├── seaweed metabolite scaffold distribution
+    │   ├── ligand interaction frequency analysis
+    │   ├── structure–activity relationship figures
+    │   ├── Tanimoto similarity screening figures
+    │   ├── AI-assisted prioritisation results
+    │   └── integrated virtual-screening analysis
+    │
+    └── tables/
+        ├── residue interaction frequencies
+        ├── PPARγ activity classifications
+        ├── SAR functional-group analysis
+        ├── Tanimoto screening results
+        ├── pharmacophore screening hits
+        └── integrated screening and docking results
 
-The `results/` directory contains the final figures and tables included in the submitted MSc thesis.
+The `scripts/` directory follows the order of the computational workflow presented in the thesis, progressing from database curation and molecular characterisation through structural analysis, virtual screening and final candidate prioritisation.
 
-The scripts have been reorganised from the original research notebooks into cleaner, concise versions while preserving the original analytical workflow.
+The `results/` directory contains the final figures and tables used in the submitted MSc thesis rather than every exploratory output generated during development.
+
+Some structural analyses, including binding-pocket surface mapping, pharmacophore generation, pharmacophore overlays, docking pose visualisation and structural superposition, were performed directly in **Molecular Operating Environment (MOE)**. These final outputs are included in the repository where relevant but are not reproduced programmatically in Python.
+
+The scripts have been reorganised from the original research notebooks into cleaner, concise versions while preserving the analytical workflow and methods used in the project.
 
 ---
 
