@@ -211,17 +211,10 @@ These findings support further investigation of selected seaweed-derived metabol
 │
 ├── data/
 │   ├── raw/
-│   │   ├── PPARγ ligand and affinity exports
-│   │   ├── LOTUS seaweed metabolite data
-│   │   └── MOE-exported screening and docking files
+│   │   ├── .gitkeep
 │   │
 │   └── processed/
-│       ├── curated PPARγ agonist database
-│       ├── curated seaweed metabolite database
-│       ├── molecular descriptor datasets
-│       ├── clustered and classified datasets
-│       ├── ligand interaction data
-│       └── screening result files
+│       ├── .gitkeep
 │
 └── results/
     ├── figures/
@@ -250,6 +243,14 @@ Some structural analyses, including binding-pocket surface mapping, pharmacophor
 
 The scripts have been reorganised from the original research notebooks into cleaner, concise versions while preserving the analytical workflow and methods used in the project.
 
+### Data
+
+The `data/` directory is organised into:
+
+- `raw/` – original PPARγ ligand/affinity exports, LOTUS metabolite data and MOE-exported data used as inputs to the workflow.
+- `processed/` – curated databases, calculated molecular descriptors, structural classifications and intermediate screening datasets generated during analysis.
+
+Raw and processed research datasets are not included in the repository. The directories are retained to illustrate the data organisation used by the analysis scripts.
 ---
 
 ## Results Included in the Repository
