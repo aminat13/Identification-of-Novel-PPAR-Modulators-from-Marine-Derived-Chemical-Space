@@ -249,8 +249,7 @@ The `data/` directory is organised into:
 
 - `raw/` – original PPARγ ligand/affinity exports, LOTUS metabolite data and MOE-exported data used as inputs to the workflow.
 - `processed/` – curated databases, calculated molecular descriptors, structural classifications and intermediate screening datasets generated during analysis.
-
-Raw and processed research datasets are not included in the repository. The directories are retained to illustrate the data organisation used by the analysis scripts.
+- Raw and processed research datasets are not included in the repository. The directories are retained to illustrate the data organisation used by the analysis scripts.
 ---
 
 ## Results Included in the Repository
