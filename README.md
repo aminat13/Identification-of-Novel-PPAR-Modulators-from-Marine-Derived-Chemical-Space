@@ -240,7 +240,7 @@ These findings support further investigation of selected seaweed-derived metabol
         ├── Tanimoto screening results
         ├── pharmacophore screening hits
         └── integrated screening and docking results
-
+``
 The `scripts/` directory follows the order of the computational workflow presented in the thesis, progressing from database curation and molecular characterisation through structural analysis, virtual screening and final candidate prioritisation.
 
 The `results/` directory contains the final figures and tables used in the submitted MSc thesis rather than every exploratory output generated during development.
