@@ -82,7 +82,7 @@ The project included:
 - UMAP visualisation
 - SMARTS-based chemotype and scaffold classification
 - PPARγ binding-site interaction analysis
-- Structure–activity relationship analysis using EC50/pEC50
+- Structure–activity relationship analysis using pEC50
 - Pharmacophore development and virtual screening
 - AI-assisted descriptor-based candidate prioritisation
 - Molecular docking in MOE
@@ -293,9 +293,8 @@ The full thesis is included in this repository and provides detailed background,
 
 ---
 
-## Author
+### Supervision
 
-**Aminat Coster**
-
-MSc Technologies and Analytics in Precision Medicine  
-BSc (Hons) Biomolecular Sciences – Biotechnology and Drug Development
+**Supervised by:**  
+Prof. Marian Brennan  
+Dr. Stephen Keely
